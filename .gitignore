@@ -2,7 +2,7 @@
 
 *.pyc
 __pycache__/
-
+node_modules/
 instance/
 .conda
 .pytest_cache/

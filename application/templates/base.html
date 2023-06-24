@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Merge TailwindCSS into Flask app</title>
+    <link href="{{ url_for('static',filename='css/main.css') }}" rel="stylesheet">
+</head>
+
+<body class="pl-20 pr-20">
+    {% include "includes/nav.html" %}
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
